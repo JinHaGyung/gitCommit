@@ -1,0 +1,216 @@
+.e-wrapper{
+  background-image: url(../assets/img/common/outdoor_bg2.jpg);
+}
+/* 익스테리어 상단&버튼 */
+.e-header{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, #000000, rgb(0 0 0 / 93%),rgb(67 67 67 / 20%),rgba(0,0,0,0));
+}
+
+/* ---------버튼---------- */
+/* 공용 */
+.e-header-btn{
+  position: relative;
+  top: 5px;
+  height: 70px;
+  margin: 0 auto;
+}
+.e-btn{
+  display: inline-block;
+  position: relative;
+  width: 50px; /* 아이콘의 너비 */
+  height: 70px; /* 아이콘의 높이 */
+}
+.set_icon{
+  background: url("../assets/img/common/outdoor_ui.png") 0px 0px / 1213.89px 175px;;
+}
+.e-btn-bar{
+  width: 34px;
+  height: 70px;
+  background: url("../assets/img/common/outdoor_ui.png") -408px 0px / 1238.17px 175px;
+}
+/*컬러버튼 */
+.color1{
+  background: url("../assets/img/common/outdoor_ui.png") -50px 0px / 1213.89px 175px;
+}
+.color2{
+  background: url("../assets/img/common/outdoor_ui.png")-100px 0px / 1213.89px 175px;
+}
+.color3{
+  background: url("../assets/img/common/outdoor_ui.png")-150px 0px / 1213.89px 175px;
+}
+.color4{
+  background: url("../assets/img/common/outdoor_ui.png") -200px 0px / 1213.89px 175px;
+}
+.color5{
+  background: url("../assets/img/common/outdoor_ui.png") -250px 0px / 1213.89px 175px;
+}
+.color6{
+  background: url("../assets/img/common/outdoor_ui.png") -100px -88.5px / 1213.89px 175px;
+}
+.color7{
+  background: url("../assets/img/common/outdoor_ui.png") -150px -88.5px / 1213.89px 175px;
+}
+.color8{
+  background: url("../assets/img/common/outdoor_ui.png") -200px -88.5px / 1213.89px 175px;
+}
+.color9{
+  background: url("../assets/img/common/outdoor_ui.png") -250px -88.5px / 1213.89px 175px;
+}
+.color10{
+  background: url("../assets/img/common/outdoor_ui.png") -300px -88.5px / 1213.89px 175px;
+}
+.color11{
+  background: url("../assets/img/common/outdoor_ui2.png") -50px 0px / 1213.89px 175px;
+}
+.color12{
+  background: url("../assets/img/common/outdoor_ui2.png") -150px 0px / 1213.89px 175px;
+}
+.color13{
+  background: url("../assets/img/common/outdoor_ui2.png") -200px 0px / 1213.89px 175px;
+}
+.color14{
+  background: url("../assets/img/common/outdoor_ui2.png") -250px 0px / 1213.89px 175px;
+}
+.color15{
+  background: url("../assets/img/common/outdoor_ui2.png") -300px 0px / 1213.89px 175px;
+}
+.color16{
+  background: url("../assets/img/common/outdoor_ui2.png") -350px 0px / 1213.89px 175px;
+}
+.color17{
+  background: url("../assets/img/common/outdoor_ui2.png") -400px 0px / 1213.89px 175px;
+}
+
+/* 클릭시 선택 버튼 */
+.color1-on{
+  background: url("../assets/img/common/outdoor_ui_over.png") -50px 0px / 1213.89px 175px;
+}
+.color2-on{
+  background: url("../assets/img/common/outdoor_ui_over.png")-100px 0px / 1213.89px 175px;
+}
+.color3-on{
+  background: url("../assets/img/common/outdoor_ui_over.png")-150px 0px / 1213.89px 175px;
+}
+.color4-on{
+  background: url("../assets/img/common/outdoor_ui_over.png") -200px 0px / 1213.89px 175px;
+}
+.color5-on{
+  background: url("../assets/img/common/outdoor_ui_over.png") -250px 0px / 1213.89px 175px;
+}
+.color6-on{
+  background: url("../assets/img/common/outdoor_ui_over.png") -100px -88.5px / 1213.89px 175px;
+}
+.color7-on{
+  background: url("../assets/img/common/outdoor_ui_over.png") -150px -88.5px / 1213.89px 175px;
+}
+.color8-on{
+  background: url("../assets/img/common/outdoor_ui_over.png") -200px -88.5px / 1213.89px 175px;
+}
+.color9-on{
+  background: url("../assets/img/common/outdoor_ui_over.png") -250px -88.5px / 1213.89px 175px;
+}
+.color10-on{
+  background: url("../assets/img/common/outdoor_ui_over.png") -300px -88.5px / 1213.89px 175px;
+}
+.color11-on{
+  background: url("../assets/img/common/outdoor_ui2_over.png") -50px 0px / 1213.89px 175px;
+}
+.color12-on{
+  background: url("../assets/img/common/outdoor_ui2_over.png") -150px 0px / 1213.89px 175px;
+}
+.color13-on{
+  background: url("../assets/img/common/outdoor_ui2_over.png") -200px 0px / 1213.89px 175px;
+}
+.color14-on{
+  background: url("../assets/img/common/outdoor_ui2_over.png") -250px 0px / 1213.89px 175px;
+}
+.color15-on{
+  background: url("../assets/img/common/outdoor_ui2_over.png") -300px 0px / 1213.89px 175px;
+}
+.color16-on{
+  background: url("../assets/img/common/outdoor_ui2_over.png") -350px 0px / 1213.89px 175px;
+}
+.color17-on{
+  background: url("../assets/img/common/outdoor_ui2_over.png") -400px 0px / 1213.89px 175px;
+}
+
+
+
+
+/*핫스팟 버튼 */
+.car-hotspot{
+  background: url("../assets/img/common/outdoor_ui.png") -433.333px -87.5px / 1213.89px 175px;
+}
+/* 인테리어 버튼 */
+.interior-btn{
+  background: url("../assets/img/common/outdoor_ui.png") -433.333px 0px / 1213.89px 175px;
+}
+/* 전체화면 */
+.fullsize{
+  background: url("../assets/img/common/outdoor_ui.png") -522.917px 0px / 1213.89px 175px;
+}
+
+/* 하단 버튼 */
+.e-bottombtn{
+  display: inline-block;
+  position: fixed;
+  top: 87%;
+  transform: scale(1.1);
+  transform-origin: center center; 
+  width: 65px; /* 아이콘의 너비 */
+  height: 63px; /* 아이콘의 높이 */
+}
+.e-frontBtn{
+  background: url("../assets/img/common/outdoor_ui.png") -497px 0px / 874px 126px;
+  margin: 0 -120px;
+}
+.e-frontBtn:hover{
+  background: url("../assets/img/common/outdoor_ui.png") -497px -63px / 874px 126px;
+}
+.e-frontBtn-on{
+  background: url("../assets/img/common/outdoor_ui.png") -497px -63px / 874px 126px;
+  margin: 0 -120px;
+}
+.e-sidetBtn{
+  background: url("../assets/img/common/outdoor_ui.png") -601.5px 0px / 874px 126px;
+}
+.e-sidetBtn:hover{
+  background: url("../assets/img/common/outdoor_ui.png") -601.5px -63px / 874px 126px;
+}
+.e-sidetBtn-on{
+  background: url("../assets/img/common/outdoor_ui.png") -601.5px -63px / 874px 126px;
+}
+.e-backBtn{
+  background: url("../assets/img/common/outdoor_ui.png") -704px 0px / 874px 126px;
+  margin: 0 120px;
+}
+.e-backBtn:hover{
+  background: url("../assets/img/common/outdoor_ui.png") -704px -63px / 874px 126px;
+}
+.e-backBtn-on{
+  background: url("../assets/img/common/outdoor_ui.png") -704px -63px / 874px 126px;
+  margin: 0 120px;
+}
+
+
+/*차기종 */
+.body-wrapper{
+
+}
+.car-bady{
+  display: block;
+  height: 100vh; /* 화면 높이에 맞춰 요소의 높이 설정 */
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* 내부 컨텐츠 오버플로우 숨김 */
+}
+.a_1{
+  position: relative;
+  width: 100%;
+  height: 85%;
+  object-fit: contain; /* 이미지를 화면에 채우고 비율을 유지 */
+}

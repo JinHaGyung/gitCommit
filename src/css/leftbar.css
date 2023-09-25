@@ -1,0 +1,59 @@
+.menubar-wrapper{
+  position: fixed;
+  left: 50px;
+  top: 130px;
+}
+.bar {
+  width: 200px; /* 아이콘의 너비 */
+  height: 46px; /* 아이콘의 높이 */
+  background-image: url("../assets/img/common/left_menu.png");
+  background-repeat: no-repeat; /* 이미지 반복 제거 */
+}
+.bar:hover{
+  background-color: #9cb7c6;
+}
+.bar-click{
+  background-color: #9cb7c6;
+}
+.bar1 {
+  background-position: 0px 0; /* 첫 번째 아이콘의 위치 */
+}
+.bar2 {
+  background-position: 0 -45px; /* 두 번째 아이콘의 위치 */
+}
+.bar3 {
+  background-position: 0 -90px; /* 두 번째 아이콘의 위치 */
+}
+.bar4 {
+  background-position: 0 -135px; /* 두 번째 아이콘의 위치 */
+}
+.bar5 {
+  background-position: 0 -180px; /* 두 번째 아이콘의 위치 */
+}
+.bar6 {
+  background-position: 0 -225px; /* 두 번째 아이콘의 위치 */
+}
+.bar7 {
+  background-position: 0 -270px; /* 두 번째 아이콘의 위치 */
+}
+.bar8 {
+  background-position: 0 -315px; /* 두 번째 아이콘의 위치 */
+}
+.bar9 {
+  background-position: 0 -360px; /* 두 번째 아이콘의 위치 */
+}
+.bar10 {
+  background-position: 0 -405px; /* 두 번째 아이콘의 위치 */
+}
+.bar11 {
+  background-position: 0 -450px; /* 두 번째 아이콘의 위치 */
+}
+
+/* 반응형 */
+@media (max-width:1500px) {
+  .menubar-wrapper{
+    scale: 0.7;
+    left: 18px;
+    top: 32px;
+  }
+}

@@ -27,8 +27,6 @@ function Interior(){
   const [maxX,setMaxX]= useState(0)// 최대 X 위치
   const [maxY,setMaxY] = useState(0)//최대 Y위치
 
-  //console.log("minX: "+minX+"minY: "+minY+"maxX: "+"maxY: "+maxY)
-  
   //휠로드래그하기
   const handleMouseUp = (e) => {
     e.preventDefault();
@@ -38,14 +36,12 @@ function Interior(){
   const handleWheel = (e) => {
     e.preventDefault();
     const newScale = scale + (e.deltaY * 0.5) * -0.01;
-    console.log(newScale)
-
     if (newScale >= 1 && newScale < 2.5) {
       setScale(newScale);
-      setMinX(-(250*scale));
-      setMinY(-(200*scale));
-      setMaxX((250*scale))
-      setMaxY((200*scale))
+      setMinX(-(window.innerWidth*scale*0.15));
+      setMinY(-(window.innerHeight*scale*0.15));
+      setMaxX((window.innerWidth*scale*0.15))
+      setMaxY((window.innerHeight*scale*0.15))
     }
     else if(newScale == 0.5){
       setMinX(-0);
@@ -62,6 +58,7 @@ function Interior(){
       setScale(newScale);
     }
   };
+
   //마우스 드래그
   const handleMouseDown = (e) => {
     e.preventDefault();
@@ -232,7 +229,7 @@ function Interior(){
         width: "100%"
       }}
       className="in_wrapper image-container">
-        {on ? <HotSpot scale={scale} positionX={position.x}positionY={position.y}/>:null}
+        {on ? <HotSpot/>:null}
         {interiorType ?
         <img className="in_img"
         ref={imageRef}

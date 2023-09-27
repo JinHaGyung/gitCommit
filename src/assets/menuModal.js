@@ -8,8 +8,6 @@ import M_005_T from "../assets/img/modal/M_005_T.png"
 
 //1:변경이력,2:핵심세일즈 포인트,3:안전사양,4:관련영상,5:제원
 
-
-
 let menuModal = [
   
   {

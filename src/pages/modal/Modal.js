@@ -4,6 +4,10 @@ import { setModalChange,setVideoPlay,setvideoVersion } from "../../store";
 import "../../css/modal.css"
 import { useEffect } from "react";
 
+import M_004_1 from "../../assets/img/modal/M_004_1.jpg"
+import M_004_2 from "../../assets/img/modal/M_004_2.jpg"
+import M_004_3 from "../../assets/img/modal/M_004_3.jpg"
+
 //모달창 클릭하면 안전사양과 관련 영상에는 영상 링크(modalbiedo가 열리기)
 //클릭에 따라서 영상 링크 변형하기
 //x누르면 영상만 닫히게 만들기(z-index로 다른 버튼임)
@@ -88,10 +92,10 @@ function ModalClick1({modalData}){
     <div className="modal-cont-wrapper scrollBar">
       <div className="modal-cont modal-cont3"></div>
       <div className="modal-cont modal-cont3-1 cusor-over">
-        <span onClick={()=>{safety("https://www.youtube.com/embed/0pvwxNJ19Ek")}} className="safty-click1"></span>
+        <span onClick={()=>{safety("https://www.youtube.com/embed/sOOuMtHWoNA")}} className="safty-click1"></span>
         <span onClick={()=>{safety("https://www.youtube.com/embed/M772UJcD6Ho")}} className="safty-click2"></span>
       </div>
-      <div onClick={()=>{safety("https://youtu.be/FhdMUDq9Cug")}}className="modal-cont modal-cont3-2 cusor-over"></div>
+      <div onClick={()=>{safety("https://www.youtube.com/embed/0pvwxNJ19Ek")}}className="modal-cont modal-cont3-2 cusor-over"></div>
       <div className="modal-cont modal-cont3-3"></div>
       <div className="modal-cont modal-cont3-4"></div>
       <div onClick={()=>{safety("https://www.youtube.com/embed/s-3wQ6JbCpQ")}} className="modal-cont modal-cont3-5 cusor-over"></div>
@@ -111,9 +115,9 @@ function ModalClick2({modalData}){
     <>
      <img className="modal-title" src={modalData[3].title}></img>
        <div className="modal-cont-wrapper scrollBar">
-      <div onClick={()=>{safety("https://www.youtube.com/embed/FhdMUDq9Cug")}} className="modal-cont modal-video modal-cont4-1 cusor-over"></div>
-      <div onClick={()=>{safety("https://www.youtube.com/embed/nBvxi_iEiFI")}} className="modal-cont modal-video modal-cont4-2 cusor-over"></div>
-      <div onClick={()=>{safety("https://www.youtube.com/embed/RWPUAu5pmKs")}} className="modal-cont modal-video modal-cont4-3 cusor-over"></div>
+        <img onClick={()=>{safety("https://www.youtube.com/embed/FhdMUDq9Cug")}} className="modal-video cusor-over" src={M_004_1}></img>
+        <img onClick={()=>{safety("https://www.youtube.com/embed/nBvxi_iEiFI")}} className="modal-video cusor-over" src={M_004_2}></img>
+        <img onClick={()=>{safety("https://www.youtube.com/embed/RWPUAu5pmKs")}} className="modal-video cusor-over" src={M_004_3}></img>
     </div>
     </>
   )

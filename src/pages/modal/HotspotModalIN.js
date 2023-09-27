@@ -18,7 +18,6 @@ function HotSpotModalIN(){
     let hotState = useSelector(state=>state.hopspotModal)
     //모달창 이미지 선택
     let [modalImg,setModalImg] = useState(hotspotState[versionState][3].img);
-    console.log(modalImg)
 
     useEffect(()=>{
       var modalImgCopy

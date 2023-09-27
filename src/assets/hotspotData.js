@@ -174,7 +174,7 @@ let hotspotdata=[
     //ACTIV 드라이브
       css:["hotspot-3","hotspot-4","hotspot-9","hotspot-11","hotspot-12","hotspot-18","hotspot-19",
       "hotspot-22","hotspot-25","hotspot-29"],
-      intro:['11"컬러 터치스크린','8"컬러 클러스터',"ACTIV 인테리어","스위쳐블 AWD","자동변속기 (트랜스미션)",
+      intro:['11"컬러 터치스크린','8"컬러 클러스터',"ACTIV 인테리어","스위처블 AWD","자동변속기 (트랜스미션)",
       "USB포트와 스마트폰 무선충전 시스템","듀얼존 풀 오토 에어컨 (DUAL ZONE FULL AUTO A/C)",
       "어댑티브 크루즈 컨트롤","BOSE® 프리미엄 오디오 시스템 (7 스피커)","무선 폰 프로젝션"
     ],
@@ -217,7 +217,7 @@ let hotspotdata=[
     //RS드라이브
       css:["hotspot-3","hotspot-4","hotspot-9","hotspot-11","hotspot-12","hotspot-18",
       "hotspot-19","hotspot-22","hotspot-25","hotspot-29"],
-      intro:['11"컬러 터치스크린','8"컬러 클러스터',"RS 인테리어","스위쳐블 AWD","자동변속기 (트랜스미션)","USB포트와 스마트폰 무선충전 시스템",
+      intro:['11"컬러 터치스크린','8"컬러 클러스터',"RS 인테리어","스위처블 AWD","자동변속기 (트랜스미션)","USB포트와 스마트폰 무선충전 시스템",
       "듀얼존 풀 오토 에어컨 (DUAL ZONE FULL AUTO A/C)","어댑티브 크루즈 컨트롤","BOSE® 프리미엄 오디오 시스템 (7 스피커)","무선 폰 프로젝션"
     ],
       img:[{title:in_003_t,cont:in_003},{title:in_004_t,cont:in_004},{title:in_009_rs_t,cont:in_009_rs},{title:in_011_t,cont:in_011}

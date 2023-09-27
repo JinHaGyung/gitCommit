@@ -142,8 +142,6 @@ background-position: top;
 /* 관련영상 */
 .modal-video{
   width: 100%;
-  height: 300px;
-
 }
 .modal-cont4-1{
   background: url("../assets/img/modal/M_004_1.jpg"); 

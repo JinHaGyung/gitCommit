@@ -60,7 +60,6 @@ function HotSpot(){
   const [isHovered, setIsHovered] = useState(false);
   const [tooltipPosition, setTooltipPosition] = useState([{top:0,left:0}]);
   const [hotInfo,setHotInfo] = useState();
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   const handleMouseEnter = (i,e) => {
     setIsHovered(true);
